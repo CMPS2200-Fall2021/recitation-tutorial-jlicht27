@@ -3,8 +3,7 @@ import math
 def sum_of_squares(a):
 	result = 0
 	for i in a:
-		i = math.pow(i, 2)
-		result += i
+		result += i**2
 	return int(result)
 
 def test_one():
