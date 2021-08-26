@@ -1,5 +1,3 @@
-import math
-
 def sum_of_squares(a):
 	result = 0
 	for i in a:
